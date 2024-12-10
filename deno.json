@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "server": "deno run --allow-read --allow-net --allow-run --allow-env src/server.js",
+  },
+  "imports": {
+    "@oak/oak": "jsr:@oak/oak@^17.0.0",
+    "@tajpouria/cors": "jsr:@tajpouria/cors@^1.2.1",
+    "@std/fmt/colors": "jsr:@std/fmt@0.223/colors"
+  }
+}
